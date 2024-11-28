@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10%;
+}
+.todolist {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.inputtext {
+    position: relative;
+    margin-bottom: 5%;
+}
+input {
+    width: 330px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.btn-input {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.list {
+    padding: 10px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.list li {
+    width: 75%;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 10%;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+.list li button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: red;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+}
+.list li input {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+}
